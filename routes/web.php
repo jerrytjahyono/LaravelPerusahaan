@@ -14,8 +14,8 @@ use App\Http\Controllers\ControllerPerusahaan;
 |
 */
 
-Route::get('/', function () {
-    return view('perusahaan');
-});
+// Route::get('/', function () {
+//     return view('perusahaan');
+// });
 
-Route::get('/perusahaan',[ControllerPerusahaan::class,"getAllPerusahaan"]);
+Route::get('/',[ControllerPerusahaan::class,'getAllPerusahaan']);

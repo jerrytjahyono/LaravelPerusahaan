@@ -1,5 +1,4 @@
 <x-frame>
-
     @if (!$dataPerusahaan)
         <p>perusahaan belom ada</p>
     @else
